@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pt.rikmartins.festivaljota"
+    android:installLocation="preferExternal"
+    android:versionCode="8"
+    android:versionName="2.1.0 (brasil)" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="pt.rikmartins.festivaljota.ui.PrincipalActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="pt.rikmartins.festivaljota.ui.InformacaoActivity"
+            android:label="@string/title_activity_informacao"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <provider
+            android:name="pt.rikmartins.festivaljota.provider.FestivalJotaProvider"
+            android:authorities="pt.rikmartins.festivaljota"
+            android:enabled="true"
+            android:exported="false" >
+        </provider>
+
+        <activity
+            android:name="pt.rikmartins.festivaljota.ui.DefinicoesActivity"
+            android:label="@string/title_activity_definicoes"
+            android:parentActivityName="pt.rikmartins.festivaljota.ui.PrincipalActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="pt.rikmartins.festivaljota.ui.PrincipalActivity" />
+        </activity>
+
+        <service
+            android:name="pt.rikmartins.festivaljota.NoticiasFestivalJotaService"
+            android:enabled="true"
+            android:exported="false" >
+        </service>
+
+        <receiver
+            android:name="pt.rikmartins.festivaljota.NoticiasFestivalJotaService$NoticiasFestivalJotaServiceReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter >
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="pt.rikmartins.festivaljota.noticias.OBTIDAS" />
+            </intent-filter>
+        </receiver>
+        
+    </application>
+
+</manifest>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="dados_indisponiveis">Sem acesso a notícias!</string>
+    <string name="dados_indisponiveis_explicacao">Falta de acesso à internet é a causa mais provável.</string>
+    
+</resources>

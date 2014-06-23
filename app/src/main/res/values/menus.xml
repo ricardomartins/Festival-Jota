@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="principal_sobre">Sobre a aplicação…</string>
+    <string name="principal_sobre_cond">Sobre…</string>
+    <string name="principal_actualizar">Actualizar lista</string>
+    <string name="principal_actualizar_cond">Actualizar</string>
+    <string name="principal_definicoes">Definições da aplicação…</string>
+    <string name="principal_definicoes_cond">Definições…</string>
+    
+    <string name="definicoes_chave_frequencia_sincronizacao">frequencia_sicronizacao</string>
+    <string name="definicoes_chave_notificacoes_nova_noticia">notificar_nova_noticia</string>
+    <string name="definicoes_chave_toque_notificacao">toque_notificacao</string>
+    <string name="definicoes_chave_vibracao_notificacao">vibrar_notificacao</string>
+</resources>

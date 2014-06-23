@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Festival Jota</string>
+    <string name="noticia_titulo">titulo</string>
+    <string name="noticia_subtitulo">subtitulo</string>
+    <string name="noticia_texto">noticia</string>
+    <string name="noticia_imagem">imagem</string>
+    <string name="fonte_dados">http://www.festivaljota.com/</string>
+    <string name="titulo_destaques">Destaques</string>
+    <string name="titulo_noticias">Notícias</string>
+
+    <string-array name="categorias_site">
+        <item>Destaques</item>
+        <item>Notícias</item>
+    </string-array>
+
+    <string name="title_activity_informacao">Informação</string>
+    <string name="imagem_promocional">Imagem promocional</string>
+    
+    <string name="descricao_logo_web">Web Site do Festival Jota</string>
+    <string name="descricao_logo_facebook">Página do Facebook do Festival Jota</string>
+    <string name="descricao_logo_navegar">Chega ao Festival Jota</string>
+    <string name="descricao_logo_twitter">Página do Twitter do Festival Jota</string>
+    <string name="descricao_logo_youtube">Página do Youtube do Festival Jota</string>
+
+</resources>

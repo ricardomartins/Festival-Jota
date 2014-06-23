@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/opc_actualizar" android:orderInCategory="100" android:showAsAction="never" android:title="@string/principal_actualizar" android:titleCondensed="@string/principal_actualizar_cond"></item><item android:id="@+id/opc_definicoes" android:orderInCategory="100" android:title="@string/principal_definicoes" android:titleCondensed="@string/principal_definicoes_cond" android:showAsAction="never"></item><item
+        android:id="@+id/opc_informacao"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/principal_sobre" android:titleCondensed="@string/principal_sobre_cond"/>
+    
+    
+</menu> 

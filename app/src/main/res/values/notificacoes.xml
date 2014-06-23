@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="nova_noticia_previsao">Notícias do Festival Jota</string>
+    <string name="nova_noticia_titulo">Novas notícias</string>
+    <string name="nova_noticia_texto">%1$s</string>
+
+</resources>
