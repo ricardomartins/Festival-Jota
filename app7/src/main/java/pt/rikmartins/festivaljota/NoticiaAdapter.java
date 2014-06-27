@@ -1,11 +1,5 @@
 package pt.rikmartins.festivaljota;
 
-import java.net.MalformedURLException;
-import java.util.ArrayList;
-import java.util.List;
-
-import pt.rikmartins.utilitarios.noticias.SitioNoticias.Noticia;
-
 import android.content.Context;
 import android.content.Intent;
 import android.net.ConnectivityManager;
@@ -13,13 +7,19 @@ import android.net.NetworkInfo;
 import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.view.View.OnClickListener;
+import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.net.MalformedURLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import pt.rikmartins.utilitarios.noticias.SitioNoticias.Noticia;
 
 public class NoticiaAdapter extends BaseAdapter {
 

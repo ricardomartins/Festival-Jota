@@ -1,1 +1,2 @@
-include 'app7'
+include ':noticias'
+include ':app7'
