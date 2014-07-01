@@ -20,4 +20,5 @@ android {
 
 dependencies {
     compile project(':noticias')
+    compile project(':comum')
 }

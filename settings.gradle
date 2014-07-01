@@ -1,2 +1,2 @@
-include ':noticias'
+include ':noticias', ':app15', ':comum'
 include ':app7'
