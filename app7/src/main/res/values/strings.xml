@@ -2,11 +2,7 @@
 <resources>
 
     <string name="app_name">Festival Jota</string>
-    <string name="noticia_titulo">titulo</string>
-    <string name="noticia_subtitulo">subtitulo</string>
-    <string name="noticia_texto">noticia</string>
-    <string name="noticia_imagem">imagem</string>
-    <string name="fonte_dados">http://www.festivaljota.com/</string>
+
     <string name="titulo_destaques">Destaques</string>
     <string name="titulo_noticias">Notícias</string>
 

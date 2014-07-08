@@ -12,6 +12,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -57,7 +58,8 @@ public class NoticiaAdapter extends BaseAdapter {
 		TextView titulo = (TextView) vi.findViewById(R.id.titulo); // título
 		TextView texto = (TextView) vi.findViewById(R.id.texto); // texto
 		ImageView imagem = (ImageView) vi.findViewById(R.id.imagem); // imagem
-		LinearLayout corpoNoticia = (LinearLayout) vi.findViewById(R.id.corpo_noticia);
+        ImageView mascara = (ImageView) vi.findViewById(R.id.mascara); // mascara
+		RelativeLayout corpoNoticia = (RelativeLayout) vi.findViewById(R.id.corpo_noticia);
 
 		final Noticia aNoticia = dados.get(posicao);
 

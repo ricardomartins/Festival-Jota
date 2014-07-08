@@ -159,9 +159,9 @@ public class SitioNoticiasFestivalJota2013 extends SitioNoticias {
 
 		@Override
 		public void posProcessarImagem(Bitmap btm, Object obj) {
-			if ((btm != null) && (obj != null))
-				((ImageView) obj).setImageBitmap(btm);
-			else {
+			if ((btm != null) && (obj != null)) {
+                ((ImageView) obj).setImageBitmap(btm);
+            } else {
 				if(obj != null){
 					// Esconder obj
 					((View) obj).setVisibility(View.GONE);
