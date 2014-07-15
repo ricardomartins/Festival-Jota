@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Utilitários de Notícias</string>
+    <string name="noticia_titulo">Título</string>
+    <string name="noticia_subtitulo">Subtítulo</string>
+    <string name="noticia_texto">Notícia: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur rutrum velit ac leo semper sagittis. Nam sodales velit leo, eu imperdiet metus posuere ut. Sed et nulla in tellus tempor elementum et vitae sapien. Pellentesque pharetra risus non enim hendrerit, sit amet auctor nisi sollicitudin. Integer varius dolor at nulla. </string>
+    <string name="noticia_imagem">Imagem da notícia</string>
 </resources>

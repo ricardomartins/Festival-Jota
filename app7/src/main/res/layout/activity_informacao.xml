@@ -10,7 +10,6 @@
         android:id="@+id/LinearLayout2"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/bg_texto"
         android:orientation="vertical"
         android:padding="10dp" >
 

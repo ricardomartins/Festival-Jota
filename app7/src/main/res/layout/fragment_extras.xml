@@ -3,7 +3,6 @@
     android:id="@+id/fragment_extras"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@drawable/bg_texto"
     android:padding="10dp" >
 
     <TableRow
